@@ -1,0 +1,128 @@
+/* Style for the body to set the background color and font properties */
+body {
+  /* A slightly lighter background color for better contrast */
+  /* Consistent font family across the page */
+  /* Remove default margin */
+}
+
+
+/* Style for the header to set background color and text alignment */
+header {
+  /* Background color: sets the background color of the header */
+  background-color: /* Add background color here */;
+
+  /* Color: sets the text color of the header */
+  color: /* Add text color here */;
+
+  /* Padding: adds space inside the header */
+  padding: /* Add padding value here */px;
+
+  /* Text-align: centers the text inside the header */
+  text-align: /* Add text alignment here */;
+}
+
+
+/* Style for the header's h1 element */
+header h1 {
+  /* Margin-bottom: adds space below the heading */
+  margin-bottom: /* Add margin value here */px;
+}
+
+
+
+/* Style for the form to center it on the page */
+form {
+  margin: auto;
+  /* Ensure the form does not exceed screen width */
+  /* Add padding value here */;
+  /* Add background color here */;
+  /* Slightly larger shadow for better depth */
+  /* Slightly more rounded corners */
+}
+
+
+/* Style for labels to ensure they are bold and clear */
+/* Add font-weight here */
+/* Add margin value here */
+ 
+
+
+/* Style for input fields to improve their appearance */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"] {
+  width: 100%;
+  /* Ensure inputs fill the form width */
+  padding: /* Add padding value here */px;
+  /* Slightly more padding for better usability */
+  margin-bottom: /* Add margin value here */px;
+  border: 1px solid #ccc;
+  border-radius: /* Add border-radius value here */;
+  /* More rounded corners for inputs */
+  font-size: /* Add font-size value here */px;
+  box-sizing: border-box;
+  /* Ensures padding and borders are included in the element's width */
+  transition: border-color 0.3s ease;
+  /* Smooth transition for focus state */
+}
+
+/* Focused input field appearance */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+  border-color: #4CAF50;
+  /* Highlight the border on focus */
+  outline: none;
+  /* Remove default outline */
+}
+
+/* Style for the checkbox and radio inputs */
+
+/* Style for the checkbox and its label to be on the same line */
+.checkbox-group {
+
+}
+
+/* Style for radio buttons and labels to be inline */
+.radio-group {
+
+}
+
+/* Ensure the checkbox and its label align properly */
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Ensure radio button labels are inline with their respective buttons */
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+/* Style for the submit button to make it stand out */
+button[type="submit"] {
+  /* Larger padding for a more prominent button */
+  /* Slightly more rounded corners */
+  /* Full width button for better responsiveness */
+  /* Smooth transition for hover state */
+}
+
+/* Change button background color on hover for better interactivity */
+button[type="submit"]:hover {
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  form {
+    /* Ensure form takes full width on smaller screens */
+    /* Adjust padding for smaller screens */
+  }
+}
